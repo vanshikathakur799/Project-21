@@ -38,7 +38,7 @@ function setup() {
   path.addImage(pathImage);
   path.x = path.width /2;
  
-  sam = createSprite(width-1440,height/2);
+  sam = createSprite(width-1400,height/2);
   sam.addAnimation("cycling", samImg);
   sam.addAnimation("fall", samFall_Img);
   sam.scale = 0.15;
